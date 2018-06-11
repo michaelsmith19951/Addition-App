@@ -1,0 +1,1 @@
+This is a basic calculator app that does the four basic math operations of addition, subtraction, multiplication and division. This app allows user input, so any numbers can be inputted by the user.
