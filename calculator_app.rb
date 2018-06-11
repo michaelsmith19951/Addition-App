@@ -1,3 +1,4 @@
+
 #Adds any two integers together that the user inputs.
 def addition(number_one, number_two)
 number_one + number_two
@@ -22,13 +23,17 @@ number_seven / number_eight
 end
 
 #Allow user input
+puts "What is your first number?"
 number_one = gets.to_i
+puts "What operation do you want to do?"
 action = gets.chomp
+puts "What is your second number?"
 number_two = gets.to_i
+puts "Here is the answer to the numbers you inputted."
 
 #Print the results of the math to the console
-puts action
 puts number_one
+puts action
 puts number_two
 
 #Conditional statement that decides whether to add or subtract
